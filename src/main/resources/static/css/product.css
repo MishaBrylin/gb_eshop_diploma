@@ -1,0 +1,125 @@
+.productInfo {
+    display: table;
+    border-collapse: collapse;
+}
+
+.productImg{
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.productImg img{
+    width: 200px;
+    border-radius: 0px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.productImg img:hover{
+    width: 500px;
+    position: absolute;
+    cursor: zoom-in;
+    z-index: 2;
+    box-shadow: 10px 10px 9px grey;
+    transition: 0.5s;
+}
+
+.productText{
+    margin-left: 30px;
+}
+
+.buyButton{
+    align-content: center;
+}
+
+.buyButton button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(12,103,148);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: black;
+}
+
+.buyButton button:hover{
+    background: darkorange;
+    transition: 0.5s;
+}
+
+.adminButtons{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    gap: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.admin_h3{
+    padding-left: 30px;
+}
+
+.admin_orderInfo_img{
+    width: 230px;
+    height: 230px;
+}
+
+.adminSearch_orders{
+    padding-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.adminSearch_orders_btn{
+    width: 110px;
+}
+
+.adminSearch_orders_input{
+    width: 300px;
+}
+
+.adminSearch_orders_table{
+    padding-top: 30px;
+}
+
+.adminSearch_orders_table_link{
+    color: red;
+    text-decoration: none;
+}
+
+.adminSearch_orders_table_result{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.admin_order_info{
+    padding-left: 50px;
+    padding-top: 30px;
+    max-width: 800px
+}
+
+.admin_order_info_btn{
+    width: 185px;
+}
+
+.admin_editProduct_form{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.admin_editProduct_form_inpName{
+    width: 272px;
+}
+
+.admin_editProduct_form_inpDesc{
+    width: 330px;
+
+}
+
+.admin_editProduct_form_inpProd{
+    width: 314px;
+}

@@ -1,0 +1,30 @@
+  #Настройки базы данных
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/eshop
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+    generate-ddl: true
+  flyway:
+    baselineOnMigrate: true
+    baseline-version: 0
+
+  #Путь загрузки картинок для добавляемых товаров
+upload:
+  path: /home/iopa/uploads
+  #path: E:\uploads
+
+  # Категории товаров:
+category:
+  1: "Ванны"
+  2: "Санфаянс"
+  3: "Смесители"
+  4: "Душевые кабины"
+  5: "Кухонные раковины"
+  6: "Арматура"
